@@ -1,0 +1,14 @@
+body{
+    background-color: #F5F5F5;
+    text-align: center;
+}
+#taskbutton{
+    color: rgb(233, 236, 28);
+    background-color: rgb(75, 20, 29);
+}
+placeholde{
+    
+}
+ul{
+    list-style: none;
+}
