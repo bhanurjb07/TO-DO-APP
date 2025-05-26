@@ -19,7 +19,6 @@ btn.addEventListener("click", function () {
     ul.appendChild(item);
     inp.value = "";
 });
-
 ul.addEventListener("click", function (event) {
     if (event.target.nodeName === "BUTTON") {
         let listItem = event.target.parentElement;
