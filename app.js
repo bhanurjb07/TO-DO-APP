@@ -1,7 +1,6 @@
 let btn = document.querySelector("button");
 let ul = document.querySelector("ul");
 let inp = document.querySelector("input");
-
 btn.addEventListener("click", function () {
     if (inp.value.trim() === "") {
         alert("Please enter something....");

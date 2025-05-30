@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JS</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do App</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1><u>To Do App</u></h1>
-  <input placeholder="Enter your task" />
-  <button id="taskbutton">Add Task</button>
-  <ul>
-    <li>Eat <button class="delete">Delete</button></li>
-    <li>Sleep <button class="delete">Delete</button></li>
-  </ul>
- <!-- <p>With love by bhanu</p> -->
+  <div class="container">
+    <h1><i class="heading1"></i> To-Do App</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/10074/10074493.png" alt="To Do" class="todoimg" />
+    
+    <div class="inputcontainer">
+      <input type="text" placeholder="Enter your task..." />
+      <button id="taskbutton">Add Task</button>
+    </div>
+
+    <ul></ul>
+    <!-- <p class="footer">Made with ❤️ by Bhanu</p> -->
+  </div>
   <script src="app.js"></script>
 </body>
 </html>
